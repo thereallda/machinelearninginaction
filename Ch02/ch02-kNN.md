@@ -1,7 +1,3 @@
-The code for the examples in Ch.2 is contained in the python module: kNN.py.
-The examples assume that datingTestSet.txt is in the current working directory.  
-Folders testDigits, and trainingDigits are assumed to be in this folder also.  
-
 # Chapter02: kNN
 
 存在一个**已知标签**的**训练数据集**。输入**无标签**的新数据后，根据新数据的样本特征与样本数据进行比较，然后提取样本集中特征**最相似**数据（最近邻）的分类标签。一般选择前***k***个最相似的数据中出现次数最多的分类作为新样本的分类。
